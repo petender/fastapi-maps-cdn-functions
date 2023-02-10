@@ -1,0 +1,10 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions>=1.12.0
+py-staticmaps
+fastapi
+nest_asyncio
+opentelemetry-instrumentation-fastapi == 0.30b1
+azure-monitor-opentelemetry-exporter == 1.0.0b5
